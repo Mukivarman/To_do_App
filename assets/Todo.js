@@ -117,7 +117,7 @@ const displaytask=()=>{
                     delbtn.innerHTML=delbtnicon
             //delete elemnt inarray       
                     delbtn.addEventListener("click",()=>{
-                        arr.splice(arr[j],1);
+                        arr.splice(arr.indexOf(i),1);
                         displaytask();
                     })
                     
